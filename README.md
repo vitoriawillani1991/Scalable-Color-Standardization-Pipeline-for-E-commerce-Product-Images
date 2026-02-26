@@ -1,4 +1,4 @@
-# 🎨 Scalable Color Standardization Pipeline for E-commerce Product Images
+# Scalable Color Standardization Pipeline for E-commerce Product Images
 
 ## Executive Summary
 
@@ -15,7 +15,7 @@ This is not just image correction — it is **operational automation powered by 
 
 ---
 
-# 🧩 Business Context
+#  Business Context
 
 In large e-commerce catalogs:
 
@@ -37,7 +37,7 @@ It was how to make color consistency **measurable, scalable, and auditable**.
 
 ---
 
-# 🧠 Data Science Framing
+#  Data Science Framing
 
 This problem was approached as:
 
@@ -65,7 +65,7 @@ This reframes color correction as:
 
 # ⚙️ Methodology
 
-## 1️⃣ Perceptual Color Space Transformation
+## 1️ Perceptual Color Space Transformation
 
 Images are converted from RGB → CIELAB.
 
@@ -81,7 +81,7 @@ This allows independent control of brightness and chromaticity, making perceptua
 
 ---
 
-## 2️⃣ Statistical Distribution Matching
+## 2️ Statistical Distribution Matching
 
 For each channel:
 
@@ -103,7 +103,7 @@ This creates a controlled statistical transfer instead of rigid normalization.
 
 ---
 
-## 3️⃣ Two-Stage Correction Strategy
+## 3️ Two-Stage Correction Strategy
 
 ### Stage 1 — Distribution Alignment  
 Aligns mean and variance of L, a, b channels.
@@ -123,7 +123,7 @@ This balances:
 
 ---
 
-## 4️⃣ Automatic Quality Scoring
+## 4️ Automatic Quality Scoring
 
 Instead of relying solely on visual inspection, the pipeline computes:
 
@@ -141,7 +141,7 @@ This converts subjective QA into threshold-based decision logic.
 
 ---
 
-# 📊 Output Metrics
+#  Output Metrics
 
 For every processed image, the system logs:
 
@@ -164,7 +164,7 @@ Color consistency becomes a dataset — not an opinion.
 
 ---
 
-# 📈 Business Impact
+#  Business Impact
 
 ## 🔹 1. Manual QA Reduction
 
@@ -212,7 +212,7 @@ Visual consistency directly supports performance in digital retail environments.
 
 ---
 
-# 🛠 Engineering Design Decisions
+#  Engineering Design Decisions
 
 - Alpha masking isolates product pixels from background  
 - Lab-based processing for perceptual alignment  
@@ -230,7 +230,7 @@ The system balances:
 
 ---
 
-# 🧰 Tech Stack
+#  Tech Stack
 
 - Python  
 - OpenCV  
